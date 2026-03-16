@@ -77,8 +77,10 @@ header h1 {
     background-color: #0056b3;
 }
 
-@media (max-whidth: 600px) {
-    .container {
-        grid-template-columns: 1fr;
-    }
+@media (max-width: 600px){
+
+.produtos{
+    grid-template-columns: 1fr;
+}
+
 }
